@@ -20,3 +20,7 @@ variable "ecr_repository_url" {
   description = "Full url for the ecr repository"
 }
 
+variable "depends_on" {
+  type        = any
+  default     = []
+}
